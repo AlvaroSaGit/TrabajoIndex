@@ -63,7 +63,7 @@ Class: Las clases son utiles para aplicar estilos CSS para y manipular elementos
       <!--Apellido: solo letras minusculas-->
       <div><br>
         <label for="apellido">Apellido</label>
-        <input type="text" id="apellido" name="apellido" pattern="[a-z]+" required>
+        <input type="text" id="apellido" name="apellido" placeholder="a-z" pattern="[a-z]+" required>
       </div><br>
 
       <!--Color favorito-->
@@ -81,7 +81,8 @@ Class: Las clases son utiles para aplicar estilos CSS para y manipular elementos
       <!--Permite digitar cualquier tipo de numero en un limite o minimo especifico y con su respectivo incremento que se le coloca-->
       <div><br>
         <label for="Edad">Edad</label>
-        <input type="number" name="edad" step="1" min="0" max="10" required="" id="Edad" pattern="\d+" required>
+        <input type="number" name="edad" step="1" min="0" max="10" required="" id="Edad" placeholder="Positivo"
+          pattern="\d+" required>
       </div><br>
 
       <!--Positivos-->
@@ -175,15 +176,15 @@ Class: Las clases son utiles para aplicar estilos CSS para y manipular elementos
 
       <!--Permite digitar una contraseña ocultandola en el proceso
           Placeholder muestra un texto de referencia en el campo de entrada cuando esta vacio-->
-      <!--<div>
+      <h2>NOTAS CLASE</h2>
+      <div>
         <label for="Contrasena">Contraseña</label>
         <input type="password" placeholder="123456789" name="Contrasena" id="Contrasena">
         <button type="submit">Enviar</button>
-      </div>-->
+      </div>
 
       <!--Permite diligenciar un correo
       Autocomplete permite al navegador autocompletar segun los valores almacenados por el usuario-->
-      <h2>NOTAS CLASE</h2>
       <div><br>
         <label for="correo">Correo</label>
         <input type="email" name="correo" id="correo" placeholder="fulanito@gmail.com" autocomplete="on">
